@@ -1,0 +1,16 @@
+# Word temporary lock files
+~$*
+
+# Local render output
+*_render/
+pingan_*_render/
+
+# Local document builder scripts and generated helper files
+build_*.py
+append_*.py
+fix_*.py
+
+# Local editor/system files
+.DS_Store
+Thumbs.db
+
