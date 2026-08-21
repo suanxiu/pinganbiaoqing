@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/index/index", "pages/create/create", "pages/album/album", "pages/shop/shop", "pages/news/news", "pages/music/music"],
+  "pages": ["pages/index/index", "pages/create/create", "pages/preview/preview", "pages/album/album", "pages/shop/shop", "pages/news/news", "pages/music/music"],
   "window": {
     "backgroundColor": "#FFF9EF",
     "backgroundTextStyle": "dark",

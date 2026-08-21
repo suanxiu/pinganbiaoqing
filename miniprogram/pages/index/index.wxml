@@ -1,7 +1,7 @@
 <view class="page-shell home-page">
   <view class="topline"><view><text class="date">{{todayLabel}}</text><text class="page-title">今天也要平安</text></view><text class="seal">安</text></view>
   <view wx:if="{{loading}}" class="daily-card loading-card">正在准备今日问候...</view>
-  <view wx:else class="daily-card theme-{{current.theme}}"><text class="period">{{current.period}}</text><text class="daily-title">{{current.title}}</text><text class="daily-copy">{{current.copy}}</text><text class="theme-name">{{current.themeName}}</text></view>
+  <view wx:else class="daily-card theme-{{current.theme}}" bindtap="previewDefault"><text class="period">{{current.period}}</text><text class="daily-title">{{current.title}}</text><text class="daily-copy">{{current.copy}}</text><text class="theme-name">{{current.themeName}} · 点这里查看成品</text></view>
   <scroll-view wx:if="{{dailyItems.length > 1}}" class="choice-scroll" scroll-x enhanced show-scrollbar="{{false}}"><view class="choice-row"><button wx:for="{{dailyItems}}" wx:key="id" class="choice-chip {{selectedIndex === index ? 'choice-chip-active' : ''}}" data-index="{{index}}" bindtap="selectDaily">{{item.themeName}}</button></view></scroll-view>
   <view class="action-row"><button class="primary-button action-main" bindtap="goCreate">用我的照片制作</button><button class="share-button" open-type="share">分享</button></view>
   <text class="section-title">今天还可以看看</text>
