@@ -1,0 +1,20 @@
+{
+  "pages": ["pages/index/index", "pages/create/create", "pages/album/album", "pages/shop/shop", "pages/news/news", "pages/music/music"],
+  "window": {
+    "backgroundColor": "#FFF9EF",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFF9EF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "平安表情"
+  },
+  "tabBar": {
+    "color": "#6E665F", "selectedColor": "#B9342B", "backgroundColor": "#FFFCF6", "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "每日平安" },
+      { "pagePath": "pages/create/create", "text": "制作" },
+      { "pagePath": "pages/album/album", "text": "相册" },
+      { "pagePath": "pages/shop/shop", "text": "商城" }
+    ]
+  },
+  "sitemapLocation": "sitemap.json", "style": "v2"
+}

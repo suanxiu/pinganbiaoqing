@@ -10,7 +10,11 @@ build_*.py
 append_*.py
 fix_*.py
 
+# Local mini program credentials and dependencies
+project.private.config.json
+miniprogram_npm/
+node_modules/
+
 # Local editor/system files
 .DS_Store
 Thumbs.db
-

@@ -1,0 +1,10 @@
+<view class="page-shell home-page">
+  <view class="topline"><view><text class="date">{{todayLabel}}</text><text class="page-title">今天也要平安</text></view><text class="seal">安</text></view>
+  <view wx:if="{{loading}}" class="daily-card loading-card">正在准备今日问候...</view>
+  <view wx:else class="daily-card theme-{{current.theme}}"><text class="period">{{current.period}}</text><text class="daily-title">{{current.title}}</text><text class="daily-copy">{{current.copy}}</text><text class="theme-name">{{current.themeName}}</text></view>
+  <scroll-view wx:if="{{dailyItems.length > 1}}" class="choice-scroll" scroll-x enhanced show-scrollbar="{{false}}"><view class="choice-row"><button wx:for="{{dailyItems}}" wx:key="id" class="choice-chip {{selectedIndex === index ? 'choice-chip-active' : ''}}" data-index="{{index}}" bindtap="selectDaily">{{item.themeName}}</button></view></scroll-view>
+  <view class="action-row"><button class="primary-button action-main" bindtap="goCreate">用我的照片制作</button><button class="share-button" open-type="share">分享</button></view>
+  <text class="section-title">今天还可以看看</text>
+  <view class="quick-grid"><button class="quick-item quick-news" bindtap="goNews"><text class="quick-kicker">一张图看懂</text><text class="quick-title">昨日新闻</text></button><button class="quick-item quick-music" bindtap="goMusic"><text class="quick-kicker">权利清晰音源</text><text class="quick-title">经典旋律</text></button></view>
+  <ad-slot></ad-slot>
+</view>

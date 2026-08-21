@@ -1,0 +1,1 @@
+<view wx:if="{{visible}}" class="ad-wrap"><ad unit-id="{{unitId}}"></ad></view>

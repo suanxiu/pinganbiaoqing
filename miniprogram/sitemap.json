@@ -1,0 +1,1 @@
+{ "desc": "平安表情页面索引", "rules": [{ "action": "allow", "page": "*" }] }

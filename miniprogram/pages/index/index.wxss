@@ -1,0 +1,27 @@
+.home-page { padding-top: 20rpx; }
+.topline { display: flex; align-items: flex-start; justify-content: space-between; }
+.date { display: block; color: #2f6650; font-size: 30rpx; font-weight: 600; }
+.seal { display: flex; width: 76rpx; height: 76rpx; align-items: center; justify-content: center; border: 4rpx solid #b9342b; color: #b9342b; font-size: 42rpx; font-weight: 700; }
+.daily-card { box-sizing: border-box; min-height: 690rpx; margin-top: 24rpx; padding: 64rpx 48rpx 48rpx; border: 2rpx solid rgba(71,56,43,.18); background: #e9d9bd; box-shadow: 0 16rpx 42rpx rgba(70,49,31,.13); }
+.theme-peony { background: linear-gradient(150deg,#f1d9ca 0%,#fff8ea 52%,#d9b37a 100%); }
+.theme-pine { background: linear-gradient(150deg,#cbd7c4 0%,#f4efd8 56%,#91aa8c 100%); }
+.theme-moon { background: linear-gradient(150deg,#d7d2c5 0%,#fff9e8 55%,#b7aa8b 100%); }
+.loading-card { display: flex; align-items: center; justify-content: center; color: #6e665f; }
+.period { display: inline-block; padding: 10rpx 20rpx; background: #b9342b; color: #fff; font-size: 28rpx; font-weight: 600; }
+.daily-title { display: block; width: 84%; margin-top: 84rpx; font-size: 68rpx; font-weight: 700; line-height: 1.25; }
+.daily-copy { display: block; width: 88%; margin-top: 32rpx; font-size: 38rpx; line-height: 1.75; }
+.theme-name { display: block; margin-top: 84rpx; color: #67553f; font-size: 28rpx; }
+.choice-scroll { width: 100%; margin: 24rpx 0; white-space: nowrap; }
+.choice-row { display: inline-flex; gap: 16rpx; }
+.choice-chip { min-width: 184rpx; height: 76rpx; margin: 0; padding: 0 26rpx; background: #fff; color: #554d46; font-size: 30rpx; font-weight: 500; line-height: 76rpx; border: 2rpx solid #d9cfc3; }
+.choice-chip-active { border-color: #b9342b; color: #b9342b; }
+.action-row { display: grid; grid-template-columns: 1fr 168rpx; gap: 16rpx; }
+.action-main, .share-button { margin: 0; }
+.share-button { min-height: 100rpx; background: #2f6650; color: #fff; line-height: 100rpx; }
+.quick-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 18rpx; }
+.quick-item { box-sizing: border-box; min-height: 210rpx; margin: 0; padding: 32rpx 28rpx; text-align: left; line-height: 1.4; }
+.quick-item text { display: block; }
+.quick-news { background: #2f6650; color: #fff; }
+.quick-music { background: #d9a441; color: #28231f; }
+.quick-kicker { font-size: 26rpx; font-weight: 400; }
+.quick-title { margin-top: 28rpx; font-size: 38rpx; font-weight: 700; }
